@@ -1,0 +1,71 @@
+form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+form>input {
+    width: 284px;
+    height: 48px;
+    border-radius: 7px;
+    border: 2px solid #C5C5C5;
+    background: #FFF;
+    margin-bottom: 5%;
+    padding-left: 10px;
+}
+
+.submit-log {
+    width: 284px;
+    height: 48px;
+    border-radius: 7px;
+    background: #548AF7;
+    color: #FFF;
+    font-family: "Oleo Script Swash Caps";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.48px;
+    border: none;
+}
+
+.find-container {
+    display: flex;
+    width: 200px;
+    height: 20px;
+    gap: 5px;
+    margin-top: 5%;
+    color: #BABABA;
+}
+
+.find-container>button {
+    color: #BABABA;
+    text-align: center;
+    font-family: "PT Sans Caption";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 18.2px */
+    letter-spacing: -0.39px;
+    border: none;
+    background-color: white;
+}
+
+.move-sign {
+    margin-top: 5%;
+    width: 284px;
+    height: 48px;
+    border-radius: 7px;
+    border: 2px solid #548AF7;
+    background: #FFF;
+    color: #548AF7;
+    font-family: "Oleo Script Swash Caps";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.48px;
+}
+

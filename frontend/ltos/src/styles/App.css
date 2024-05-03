@@ -1,0 +1,90 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 375px;
+  height: 824px;
+  border: 1px solid black;
+}
+
+button {
+  border: none;
+}
+
+
+header {
+  width: 375px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-left {
+  width: 100px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.header-right {
+  width: 100px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.first-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 780px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.first-page-button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.first-page-button>button {
+  width: 327px;
+  height: 56px;
+  border-radius: 12px;
+  border: none;
+}
+
+.login-btn {
+  background: #548AF7;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.3px;
+}
+
+.sign-btn {
+  background: var(--Primary-50, #FAF9FD);
+  color: #548AF7;
+  text-align: center;
+
+  /* Heading/H6 */
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.3px;
+}

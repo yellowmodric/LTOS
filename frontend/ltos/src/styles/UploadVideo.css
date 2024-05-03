@@ -1,0 +1,155 @@
+.add-video-btn {
+    display: flex;
+    margin-top: 20%;
+    width: 100%;
+    gap: 8%;
+    padding-left: 10%;
+}
+
+.add-video-btn>:first-child {
+    width: 109px;
+    height: 37px;
+    border-radius: 18.5px;
+    border: 2px solid #000;
+    background: #FFF;
+    color: #000;
+    font-family: "PT Sans Caption";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+    letter-spacing: -0.6px;
+}
+
+.add-video-btn>:nth-child(2) {
+    width: 109px;
+    height: 37px;  
+    border-radius: 18.5px;
+    background: #548AF7;
+    color: #FFF;
+    font-family: "PT Sans Caption";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+    letter-spacing: -0.6px;
+}
+
+.title-upload {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    margin-top: 15%;
+}
+
+.line14 {
+    transform: translate(108px, -50px);
+    stroke-width: 8px;
+}
+
+.title-upload>h1 {
+    color: #000;
+    font-family: "PT Sans Caption";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.48px;
+}
+
+.title-upload>p {
+    color: #ABABAB;
+    font-family: "PT Sans Caption";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 19.6px */
+    letter-spacing: -0.42px;
+}
+
+.file-input-container {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dash-container {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    border: 3px dashed #CECECE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.dash-container>button {
+    border-radius: 5px;
+    background: #548AF7;
+    color: #FFF;
+    font-family: "PT Sans Caption";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 16.8px */
+    letter-spacing: -0.36px;
+}
+
+.dash-container>p {
+    color: #ABABAB;
+    font-family: "PT Sans Caption";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 16.8px */
+    letter-spacing: -0.36px;
+    margin-left: 40%;
+}
+
+.file-input>button {
+    border-radius: 10px;
+    border: 2px solid #C2C2C2;
+    background: #FFF;
+}
+
+.upload-btn {
+    margin-top: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20%;
+    gap: 5%;
+}
+
+.upload-btn>button {
+    width: 83px;
+    height: 30px;
+    &:first-child {
+        border-radius: 10px;
+        border: 2px solid #C2C2C2;
+        background: #FFF;
+        border-radius: 10px;
+        color: #000;
+        font-family: "PT Sans Caption";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 18.2px */
+        letter-spacing: -0.39px;
+    }
+    &:nth-child(2) {
+        border-radius: 10px;
+        background: #548AF7;
+        color: #FFF;
+        font-family: "PT Sans Caption";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 18.2px */
+        letter-spacing: -0.39px;
+    }
+}
+

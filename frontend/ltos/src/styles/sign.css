@@ -1,0 +1,108 @@
+.signature {
+    width: 80%;
+    padding-left: 10%;
+    width: 80%;
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #000;
+    font-family: "Oleo Script Swash Caps";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 33.6px */
+    letter-spacing: -0.72px;
+}
+
+.sign-form>input {
+    width: 284px;
+    height: 38px;
+    border-radius: 7px;
+    border: 2px solid #C5C5C5;
+    background: #FFF;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container>input {
+    width: 284px;
+    height: 38px;
+    border-radius: 7px;
+    border: 2px solid #C5C5C5;
+    background: #FFF;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+.input-id {
+    width: 100%;
+}
+
+.btn-idCheck {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 70px;
+    height: 26px; 
+    border-radius: 5px;
+    background: #548AF7; 
+    color: #FFF;
+    font-family: "Oleo Script Swash Caps";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 18.2px */
+    letter-spacing: -0.39px; 
+    margin-right: 3%;
+}
+
+.input-container-email {
+    display: flex;
+    gap: 5px;
+}
+
+.input-container-email>input {
+    width: 100px;
+    height: 38px;
+    border-radius: 7px;
+    border: 2px solid #C5C5C5;
+    background: #FFF;
+    padding-left: 10px;
+}
+
+select {
+    width: 147px;
+    height: 45px;
+    border-radius: 7px;
+    border: 2px solid #C5C5C5;
+    background: #FFF;
+    padding-left: 10px;
+}
+
+.submit-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.submit {
+    width: 202px;
+    height: 45px;
+    border-radius: 7px;
+    background: #548AF7;
+    color: #FFF;
+    font-family: "Oleo Script Swash Caps";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+    letter-spacing: -0.6px;
+}
