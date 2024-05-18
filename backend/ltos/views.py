@@ -1,5 +1,18 @@
 from django.http import HttpResponse
-
-
+from django.shortcuts import render, redirect
+from .models import Lecture
+from .forms import LectureForm
 def index(request):
-    return HttpResponse("안녕하세요 ltos에 오신것을 환영합니다.")
+    lecture = Lecture.objects.all()
+    context = {'lecture': lecture}
+    return render(request, 'home.html', context)
+
+def upload(request):
+    if request.method == 'POST':
+        form = LectureForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return redirect('index')  # Assuming you have a lecture list view
+    else:
+        form = LectureForm()
+    return render(request, 'upload.html', {'form': form})

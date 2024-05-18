@@ -1,0 +1,10 @@
+<a href="upload">동영상 업로드하기</a>
+{% if lecture %}
+    <ul>
+    {% for lecture in lecture %}
+        <h3>{{ lecture.title }}</h3>
+        <li><a href="/pybo/{{ question.id }}/">{{ question.subject }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+{% endif %}
